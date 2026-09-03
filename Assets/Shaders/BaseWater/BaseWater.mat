@@ -15,22 +15,82 @@ Material:
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
+  m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: []
+    m_TexEnvs:
+    - _FoamTex:
+        m_Texture: {fileID: 2800000, guid: 9f664b294a690694da747eaebd9230e2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SparkleTex:
+        m_Texture: {fileID: 2800000, guid: 64d98d6d20fc34d4685b70fd78ae5bfb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SurfaceTex:
+        m_Texture: {fileID: 2800000, guid: 9f664b294a690694da747eaebd9230e2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _TipTranperancy: 1
-    - _WaveAmount: 3.4
+    - _AmbientStrength: 0.345
+    - _ColorTransitionEnd: 1
+    - _ColorTransitionStart: 0.406
+    - _CrestStrength: 0.53
+    - _FoamScale: 4.13
+    - _FoamSharpness: 3.2
+    - _FoamSpeed: 0.06
+    - _FoamThreshold: 0.295
+    - _NormalEpsilon: 0.05
+    - _SparkleScale: 35
+    - _SparkleSharpness: 6
+    - _SparkleSpeed: 0.16
+    - _SparkleStrength: 0.94
+    - _SparkleThreshold: 0.006
+    - _SurfaceScale: 3
+    - _SurfaceSharpness: 4.16
+    - _SurfaceSpeed: 0.08
+    - _SurfaceStrength: 0.21
+    - _SurfaceThreshold: 0.466
+    - _TipTranperancy: 0.725
+    - _Wave1Amplitude: 0.5
+    - _Wave1Height: 8
+    - _Wave1Speed: 1
+    - _Wave1Steepness: 0.5
+    - _Wave1Wavelength: 5.6
+    - _Wave2Amplitude: 0.15
+    - _Wave2Height: 16
+    - _Wave2Speed: 0.8
+    - _Wave2Steepness: 0.5
+    - _Wave2Wavelength: 3.7
+    - _Wave3Amplitude: 0.15
+    - _Wave3Height: 32
+    - _Wave3Speed: 1.3
+    - _Wave3Steepness: 0.5
+    - _Wave3Wavelength: 1.8
+    - _Wave4Amplitude: 0.025
+    - _Wave4Speed: 1.5
+    - _Wave4Steepness: 0.1
+    - _Wave4Wavelength: 0.9
+    - _WaveAmount: 2.61
+    - _WaveAmplitude: 2.5
     - _WaveFrequency: 8
-    - _WaveHeight: 3
-    - _WaveSpeed: 1.07
+    - _WaveHeight: 1.11
+    - _WaveSpeed: 0.15
+    - _WaveSteepness: 2
     m_Colors:
-    - _WaterColor: {r: 0.03163936, g: 0.37031776, b: 0.745283, a: 0.9647059}
+    - _CrestColor: {r: 0.3160377, g: 1, b: 0.8717678, a: 1}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SparkleColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SurfaceColor: {r: 0.54999995, g: 0.8, b: 0.82, a: 1}
+    - _WaterColor: {r: 0.049172327, g: 0.41665062, b: 0.8018868, a: 0.9647059}
+    - _Wave1Direction: {r: 1, g: 0.3, b: 0, a: 0}
+    - _Wave2Direction: {r: -0.6, g: 1, b: 0, a: 0}
+    - _Wave3Direction: {r: 0.2, g: -1, b: 0, a: 0}
+    - _Wave4Direction: {r: -1, g: -0.2, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
